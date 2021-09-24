@@ -1,4 +1,5 @@
 ﻿using CRUDmvc.Models;
+using CRUDmvc.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
