@@ -17,7 +17,8 @@ namespace CRUDmvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sales Web MVC App";
+            ViewData["Developer"] = "Natan Colleoni";
 
             return View();
         }
