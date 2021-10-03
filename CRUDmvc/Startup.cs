@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CRUDmvc.Models;
 using CRUDmvc.Data;
+using CRUDmvc.Services;
 
 namespace CRUDmvc
 {
@@ -45,6 +46,7 @@ namespace CRUDmvc
                     );
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
